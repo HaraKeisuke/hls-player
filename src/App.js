@@ -1,21 +1,20 @@
-import React, { useCallback, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./App.css";
-import videojs, { VideoJsPlayer } from "video.js";
-import { NONAME } from "dns";
+import videojs from "video.js";
 
 function App() {
-  let videoNode;
   let player;
 
   const [loaded, setLoad] = useState(false);
   const inputRef = useRef();
-  const onSelect = useCallback(() => {
+  const onSelect = () => {
     setLoad(true);
     const videoJsOptions = {
       width: document.body.offsetWidth,
       height: document.body.offsetHeight,
       autoplay: true,
       controls: true,
+      liveui: true,
       sources: [
         {
           src: inputRef.current ? inputRef.current.value : "",
@@ -33,7 +32,7 @@ function App() {
         player.dispose();
       }
     };
-  }, []);
+  };
 
   return (
     <div className="App">
@@ -51,9 +50,9 @@ function App() {
         {loaded ? null : (
           <div>
             <h1>HLS動画プレイヤー</h1>
-            <br/>
+            <br />
             <h5>m3u8ファイルのURLを入力してください</h5>
-            <input style={style.enter}  type="text" ref={inputRef} />
+            <input style={style.enter} type="text" ref={inputRef} />
             <button style={style.enter} onClick={onSelect}>
               読み込み
             </button>
@@ -74,7 +73,7 @@ const style = {
   },
   enter: {
     backgroundColor: "#1234",
-    paddingLeft: "10px",
+    paddingLeft: "10px"
   }
 };
 
