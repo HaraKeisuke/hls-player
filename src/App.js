@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./App.css";
 import videojs from "video.js";
+require("videojs-dvrseekbar");
 
 function App() {
   let player;
