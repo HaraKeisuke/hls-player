@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hls-player/static/css/main.b100e6da.chunk.css",
-    "main.js": "/hls-player/static/js/main.c6d991be.chunk.js",
-    "main.js.map": "/hls-player/static/js/main.c6d991be.chunk.js.map",
+    "main.js": "/hls-player/static/js/main.99ac999b.chunk.js",
+    "main.js.map": "/hls-player/static/js/main.99ac999b.chunk.js.map",
     "runtime-main.js": "/hls-player/static/js/runtime-main.df5405e4.js",
     "runtime-main.js.map": "/hls-player/static/js/runtime-main.df5405e4.js.map",
-    "static/js/2.2b1549a0.chunk.js": "/hls-player/static/js/2.2b1549a0.chunk.js",
-    "static/js/2.2b1549a0.chunk.js.map": "/hls-player/static/js/2.2b1549a0.chunk.js.map",
+    "static/js/2.f6515306.chunk.js": "/hls-player/static/js/2.f6515306.chunk.js",
+    "static/js/2.f6515306.chunk.js.map": "/hls-player/static/js/2.f6515306.chunk.js.map",
     "index.html": "/hls-player/index.html",
-    "precache-manifest.2061312343f1d0f04923063e2d8b6381.js": "/hls-player/precache-manifest.2061312343f1d0f04923063e2d8b6381.js",
+    "precache-manifest.96b2a24575c0059616dc89624eeb2f05.js": "/hls-player/precache-manifest.96b2a24575c0059616dc89624eeb2f05.js",
     "service-worker.js": "/hls-player/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/hls-player/static/css/main.b100e6da.chunk.css.map"
   }
